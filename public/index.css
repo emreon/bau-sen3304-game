@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #333335;
+    /* 
+    background-image: url('texture_01.png');
+    background-repeat: repeat;
+    background-size: 512px 512px; 
+    */
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+}

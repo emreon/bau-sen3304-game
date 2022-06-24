@@ -4,7 +4,7 @@
     "description": "Bahcesehir University SEN3303 Game",
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "nodemon src/app.js"
     },
     "repository": {
         "type": "git",
@@ -15,5 +15,9 @@
     "bugs": {
         "url": "https://github.com/emreon/bau-sen3304-game/issues"
     },
-    "homepage": "https://github.com/emreon/bau-sen3304-game#readme"
+    "homepage": "https://github.com/emreon/bau-sen3304-game#readme",
+    "dependencies": {
+        "nodemon": "^2.0.16",
+        "serve-static": "^1.15.0"
+    }
 }
